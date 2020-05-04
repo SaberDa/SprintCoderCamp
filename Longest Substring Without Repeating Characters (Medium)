@@ -21,7 +21,7 @@ Explanation: The answer is "wke", with the length of 3.
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        x = []
+        x = {}
         y = []
         a = 0
         for i in s:
@@ -30,9 +30,9 @@ class Solution:
             for i in y:
                 if i in x:
                     break
-                x.append(i)
+                x[i] = 0
             if len(x) > a:
                 a = len(x)
-            x = []
+            x = {}
             del y[0]
         return a

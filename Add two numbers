@@ -20,7 +20,9 @@ class Solution:
         n = []
         x = []
         i = 1
-        while l1:
+       
+       # fetch the numbers from l1 and l2
+       while l1:
             m.append(l1.val)
             l1 = l1.next
         while l2:
@@ -28,8 +30,9 @@ class Solution:
             l2 = l2.next
         m.reverse()
         n.reverse()
-        print(m)
-        print(n)
+        
+        
+       # Do the sum opertion
         l = min(len(m), len(n))
         L = max(len(m), len(n))
         a = l + 1
@@ -58,7 +61,8 @@ class Solution:
                 while b < L + 1:
                     x.append(n[-b])
                     b += 1
-        print(x)
+        
+        # do +1 operation
         i = 0
         while i+1 < len(x):
             if x[i] >= 10:
@@ -68,7 +72,8 @@ class Solution:
         if x[-1] >= 10:
             x[-1] -= 10
             x.append(1)
-
+        
+        # form the link
         head = ListNode(x[0])
         p = head
         r = head

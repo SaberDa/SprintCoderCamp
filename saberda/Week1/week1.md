@@ -8,7 +8,7 @@
 
 **Problem:**
 
-
+![](https://raw.githubusercontent.com/SaberDa/SprintCoderCamp/master/saberda/Week1/pic/69.png)
 
 - What's 'e' meaning?
 
@@ -129,7 +129,7 @@ int main() {
 
 **Problem:**
 
-
+![](https://raw.githubusercontent.com/SaberDa/SprintCoderCamp/master/saberda/Week1/pic/29.png)
 
 - We cannot use multiplication, division and mod operator.
   - use bit shifting
@@ -234,7 +234,7 @@ int main() {
 
 **Problem:**
 
-
+![](https://raw.githubusercontent.com/SaberDa/SprintCoderCamp/master/saberda/Week1/pic/249.png)
 
 **Algorithm:**
 
